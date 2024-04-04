@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'lato', sans-serif;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background: url("project1.jpg") no-repeat center center/ cover  ;
+}
+
+.container {
+    width : 550px;
+    height: 450px;
+}
+
+.header {
+    font-size: 1.2rem;
+    border : 2px solid white;
+    color: #fff;
+    background-color: grey;
+    padding: 5px;
+    width : 100%;
+    margin : 20px auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px;
+}
+
+.main-content {
+    width: 100%;
+    height:400px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding : 50px 40px;
+    box-shadow: 0 0 10px;
+}
+
+.main-content .text-area {
+        font-size: 1.5rem;
+        line-height: 1.5;
+}
+
+.main-content .person {
+    font-size: 1.6rem;
+    color : red;
+    text-transform: uppercase;
+    margin-top: 20px;
+    /* font-family: monospace; */
+}
+
+.button-area button {
+    background-color: grey;
+    color : #fff;
+    font-size: 1.3rem;
+    padding : 10px 20px;
+    margin-top:20px;
+    border-radius: 7px;
+    border:none;
+}
+
+#new-quote {
+    transition-property: all;
+    transition-timing-function: 1000ms;
+    cursor: pointer;
+    
+}
+#new-quote:hover {
+    background-color: rgb(117, 117, 223);
+    transition-timing-function: 500ms;
+    transition-duration: 175ms;
+}
